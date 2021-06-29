@@ -1,0 +1,46 @@
+<html>
+   <div id="preloader">
+      <div class="loader">
+         <img id="pre-loader-gif" src="https://github.com/MJK618/HelloStudyorg/blob/main/images/Pre-Loader.gif?raw=true"/>
+      </div>
+   </div>
+   <script type="text/javascript">
+      (function(){
+        var myDiv = document.getElementById("preloader"),
+      
+          show = function(){
+            myDiv.style.display = "block";
+            setTimeout(hide, 8000); // 8 seconds
+          },
+      
+          hide = function(){
+            myDiv.style.display = "none";
+          };
+      
+        show();
+      })();
+      
+   </script>
+   <style>
+      #preloader {
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      background: #ffffff;
+      }
+      #pre-loader-gif {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      height: 10rem;
+      width: 10rem;
+      transform: translateX(-50%) translateY(-50%);
+      }
+   </style>
+   <body>
+   <img src="https://github.com/MJK618/HelloStudyorg/blob/main/images/Screenshot%20(1528).png?raw=true"/> </body>
+</html>
+
